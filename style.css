@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background: rgb(201,173,221);
+    background: linear-gradient(90deg, rgba(201,173,221,1) 0%, rgba(214,214,214,1) 49%, rgba(209,179,137,1) 100%);
+}
+#Home{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    /* border: 2px solid black; */
+}
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+}
+nav .nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+    
+}
+nav .nav-list ul li{
+      
+    list-style: none;
+    border-radius: 5px;
+}
+nav .nav-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 20px;
+    padding: 5px 5px 0 5px;
+    transition: 0.5s;
+}
+nav .nav-list ul li a:hover{
+    background-color: rgba(0, 191, 255, 0.255);
+    /* border-bottom: 2px solid black; */
+    border-radius: 10px;
+}
+
+.name h2{
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    -webkit-text-stroke: 1px rgba(173, 216, 230, 0.39);
+}
+.heading{
+    /* border: 2px solid rgb(216, 108, 108); */
+    margin:6.5% 0 0 20px;
+    padding: 10px;
+    font-size: 40px;
+    color:rgba(8, 5, 91, 0.668);
+    font-family: "Headland One", serif;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.259);
+    border-radius: 10px;
+    padding: 15px;
+    -webkit-text-stroke: 0.1px rgba(60, 60, 60, 0.238);
+}
+.content{
+        width: 36%;
+        margin: 15px 0 0 20px;
+        /* border: 1px solid black; */
+        padding:20px;
+        font-size: 20px;
+        font-family: "Anek Devanagari", sans-serif;
+        background-color: rgba(255, 255, 255, 0.207);
+        border-radius: 10px;
+}
+.profile-img{
+    width: 23% ;
+    height: 66.5%;
+    position: absolute;
+    top: 13.7%;
+    right: 20px;
+    border-radius: 20px;
+    z-index: 0;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, 0.355);
+}
+.profile-img button{
+    padding:5px;
+    width: 90%;
+    margin: 5px 0 0 0;
+    border-radius: 10px;
+    background-color: rgba(106, 158, 236, 0.879);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 15px;
+    z-index: 2;
+}
+.profile-img button:hover{
+    background-color: black;
+    color: white;
+}
+img.dp{
+    width:90%;
+    height:70%;
+    border-radius: 15px;
+    z-index: -1;
+}
+.education{
+    position: absolute;
+    top: 13.7%;
+    left: 38.5%;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.318);
+    padding: 10px;
+    border-radius: 15px;
+    width: 520px;
+}
+.education .info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+   
+    height:auto;
+
+}
+.education .info *{
+    font-family: "Anek Devanagari", sans-serif;
+}
+.interest{
+    position: absolute;
+    bottom: 20px;
+    left: 38.5%;
+    padding:10px;
+    width: 520px;
+    border-radius:10px ;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+
+.hobbie{
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    /* border: 1px solid black; */
+    width: 26%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Anek Devanagari", sans-serif;
+    background: rgba(255, 255, 255, 0.211);
+    border-radius: 10px;
+    }
+    .project{
+        /* border: 1px solid black; */
+        padding: 5px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+        
+    }
+.project div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    font-size:15px;
+    font-family: "Anek Devanagari", sans-serif;
+    align-items: center;
+    width: auto;
+    /* border: 1px solid black; */
+}
+.project div a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black ; */
+    padding:5px;
+    background-color: rgba(117, 233, 152, 0.675);
+    border-radius: 10px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.project div a:hover{
+    background-color: rgba(0, 0, 139, 0.467);
+    color: white;
+}
+.project h1{
+    
+    font-size: 25px;   
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+.project div{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+footer{
+    width: 100%;
+    height:30vh;
+    /* border: 1px solid black; */
+    background: rgba(0, 0, 0, 0.318);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.foot-container div a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid black ; */
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+}
+footer h1{
+    position: absolute;
+    top: 0;
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+.statement{
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    width: 35%;
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+.end{
+    position: absolute;
+    top: 80%;    
+}
+.end p {
+    float: right;
+    margin-left: 10px;
+    font-family: "Anek Devanagari", sans-serif;
+
+}
+.end span{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.border-shadow{
+    transition: 0.5s;
+    box-shadow: 0 0 20px rgba(2, 184, 245, 0.686);
+    border-radius: 10px;
+}

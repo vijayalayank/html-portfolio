@@ -1,0 +1,40 @@
+.price{
+    display: block;
+    position: absolute;
+    bottom: 9px;
+    right: 10px;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: auto;
+    font-size: 18px;
+    background-color: aqua; 
+    cursor: pointer;
+    transition: 300ms;
+    font-family: "Platypi", serif;
+  }
+  .join{
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: auto;
+    font-family: "Platypi", serif;
+    font-size: 18px;
+    transition: all 500ms;
+    cursor: pointer;
+  }
+  .price:hover{
+            /* background-color: rgba(0, 255, 255,0.5); */
+            background-color: rgba(0, 255, 255,0.4);
+            color:white;    
+  }
+  .join:hover{
+    /* background-color: rgba(0, 255, 255,0.5); */
+    background-color: black;
+    color:white;    
+}
